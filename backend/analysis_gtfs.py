@@ -54,7 +54,7 @@ def _require_pygtfs():
 
 
 def _get_token() -> str:
-    token = os.environ.get("MOBILITY_DB_TOKEN", "AMf-vByfYM8fpUERxTmOkksrV340n_dFYlQ9F4QPWXDx0W0b8ptcdIdVygjdmp5mFkSWe_xjyZKFBiIO2hWI9LY5QpV2XJQeXBNGKiqhm33y387YnJpGN5OuOdvCQNDFdbV6eKBGaCZOe1-teiMFh2LFD6oK-7hv4npfChn8JcWcAeSOpm6aIAfKwFuCtOzUfoYZytFKQIYFb8FHLshWBvawt1c2-i9VV9B5kUzl6MlIe9y_fzBuomX2uuHKdZr5LRrwBPeJDxxDOQS8auwDFLu9zNpKfhu_7rd_nY7Nwd-cunJJlrNsTzWrQqJ51yzsBy3YjHqpOoCoUem_ao4C_FH5M12QuWAiBWylEQEoYRx_DQRw7JlyxLcNPZnQuUHnWoIKcXg672ebc9eOfkYOBSwJa_obTxq99AyhBfJtqJjQWqytawTwAJrvpRQBUFMJ3QJ4rywZVfQT")
+    token = os.environ.get("MOBILITY_DB_TOKEN", "Token goes here")
     if not token:
         raise RuntimeError(
             "MOBILITY_DB_TOKEN environment variable is not set. "
