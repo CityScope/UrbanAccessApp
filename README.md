@@ -20,7 +20,7 @@ Set environment variables as needed:
 
 | Variable | Required for | Description |
 |----------|----------------|---------------|
-| `MOBILITY_DB_TOKEN` | **Transit (GTFS)** | Refresh token from [Mobility Database](https://mobilitydatabase.org/) (Account Details). Without it, GTFS feed search and analysis will fail. |
+| `MOBILITY_DB_TOKEN` | **Transit (GTFS)** | Refresh token from [Mobility Database](https://mobilitydatabase.org/) (Account Details). Include it in `backend/analysis_gtfs.py` or set as an environment variable. Without it, GTFS feed search and analysis will fail. |
 
 Run the API on **port 7000** (the dev frontend proxies `/api` to this port):
 
